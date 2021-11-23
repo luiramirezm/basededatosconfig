@@ -1,0 +1,21 @@
+{
+    "name": "luiramirezm/pqr",
+    "description": "Proyecto abierto para generar pqrs en el sector empresarial",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luisa",
+            "email": "luimramirez11@misena.edu.co"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4": {
+            "App\\" : "app/",
+            "Config\\" : "config/",
+            "View\\": "resource/",
+            "Base\\" : "src/"
+        }
+    }
+}
